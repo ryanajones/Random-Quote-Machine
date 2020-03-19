@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.content-wrapper {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  height: 100%;
+  background-color: #696969;
+  transition: background-color 1s;
+}
+
+#quote-box {
+  background-color: #e6e6e6;
+  max-width: 600px;
+  box-sizing: border-box;
+  padding: 30px;
+  padding-bottom: 10px;
+  border-radius: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#text {
+  background-color: #e6e6e6;
+  font-family: "Lora", serif;
+  font-size: 30px;
+  transition: visibility 1s;
+  transition: color 1s;
+}
+
+#author {
+  margin-left: 310px;
+  margin-bottom: -5px;
+  margin-top: 60px;
+  color: white;
+  font-family: "Lora", serif;
+  transition: visibility 1s;
+  transition: color 1s;
+}
+
+#button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+#random-quote {
+  height: 40px;
+  border: none;
+  border-radius: 5%;
+  outline: none;
+  color: white;
+  font-family: "Lora", serif;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity;
+  transition: background-color 1s;
+}
+
+#random-quote:hover {
+  opacity: 0.8;
+}
+
+#tweet-quote {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 40px;
+  border: 0px solid;
+  border-radius: 5%;
+  outline: none;
+  color: #e6e6e6;
+  cursor: pointer;
+  transition: opacity;
+  transition: background-color 1s;
+}
+
+#tweet-quote:hover {
+  opacity: 0.8;
+}
+
+@keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-flicker {
+  animation: flickerAnimation 2s;
+}
+
+#projectCreatedBy {
+  color: #e6e6e6;
+  font-family: "Lora", serif;
+}
