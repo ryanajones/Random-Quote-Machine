@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -21,15 +25,15 @@ body {
 }
 
 #quote-box {
-  background-color: #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   max-width: 600px;
   box-sizing: border-box;
   padding: 30px;
   padding-bottom: 10px;
   border-radius: 1%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  background-color: #e6e6e6;
 }
 
 #text {
