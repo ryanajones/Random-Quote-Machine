@@ -33,6 +33,7 @@ body {
 }
 
 #text {
+  text-align: center;
   background-color: #e6e6e6;
   font-family: "Lora", serif;
   font-size: 30px;

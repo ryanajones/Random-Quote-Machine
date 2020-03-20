@@ -86,7 +86,7 @@ class QuoteMachine extends Component {
     const { author, content } = quote;
 
     return (
-      <div>
+      <div id="text-container">
         <p id="text" style={{ color: currentColor }}>
           <FontAwesomeIcon icon={faQuoteLeft} size="1x" />
           &nbsp; {content}
