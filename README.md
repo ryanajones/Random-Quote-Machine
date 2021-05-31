@@ -1,6 +1,6 @@
-# Random Quote Machine React
+# Random Quote Machine
 
-This is a random quote generator using reactjs.
+> This web application is a random quote generator with an interface ability to deliver a new quote and a UI color change upon a single button click. The Reactjs library is used for its virtual DOM and state management abilities to improve efficiency.
 
 ## CodePen Link
 
