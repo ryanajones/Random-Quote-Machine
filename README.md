@@ -1,6 +1,10 @@
 # Random Quote Machine
 
-> This web application is a random quote generator with an interface ability to deliver a new quote and a UI color change upon a single button click. The Reactjs library is used for its virtual DOM and state management abilities to improve efficiency.
+> This web application is a random quote generator with an interface ability to deliver a new quote and a UI color change upon a single button click. The ReactJS library is used for its virtual DOM and state management abilities to improve efficiency.
+
+## Technologies Used
+
+HTML CSS JavaScript ReactJS
 
 ## CodePen Link
 
