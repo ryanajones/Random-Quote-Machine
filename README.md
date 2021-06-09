@@ -1,6 +1,6 @@
 # Random Quote Machine
 
-> This random quote generator has the ability to deliver a new quote and a UI color change upon a single button click. React's virtual DOM and state management abilities are used to improve UI color change and quote rendering efficiency.
+A random quote generator that has the ability to deliver a new quote and a UI color change upon a single button click. React's virtual DOM and state management abilities are used to improve color change and quote rendering efficiency.
 
 ## Technologies Used
 
